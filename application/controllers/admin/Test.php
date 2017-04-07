@@ -9,6 +9,6 @@
 class Test extends CI_Controller {
 
     public function index(){
-        echo "admin_test";
+        echo "admin_test2";
     }
 }
