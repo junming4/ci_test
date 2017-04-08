@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Email 2284876299@qq.com
+ * Author: Xiaojm
+ * Date: 2017/4/8
+ * Time: 8:24
+ * Desc: 类的简单描述
+ */
+class Admin extends CI_Controller
+{
+    public function test(){
+        echo "test_admin";
+    }
+}
