@@ -6,7 +6,7 @@
  * Time: 16:50
  */
 
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 class Test extends CI_Controller
 {
@@ -27,6 +27,4 @@ class Test extends CI_Controller
         $data['news'] = $this->news_model->get_news();
         $this->load->view('test', $data);
     }
-
-
 }
