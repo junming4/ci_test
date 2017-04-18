@@ -27,4 +27,16 @@ class Test extends CI_Controller
         $data['news'] = $this->news_model->get_news();
         $this->load->view('test', $data);
     }
+
+    /**
+     * @param $id
+     */
+    public function show($id = 0)
+    {
+        $id = (int)$id;
+        if ($id <1) {
+            show_error("非法操作", 400);
+        }
+        echo $id;
+    }
 }
